@@ -2,13 +2,16 @@
   "name": "rest",
   "version": "1.0.0",
   "description": "minha primeira rest api funcional",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "test": "npm start"
+    "test": "nodemon server.js"
   },
   "author": "Eloilson",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "node-ifunny": "^1.0.4",
+    "nodemon": "^2.0.16"
   }
 }
